@@ -9,85 +9,113 @@
         src: url(font-file.ttf);
         font-family: "my font"
       }
+      
+      @keyframes rotate{
+        0% {
+          transform: scale(1.1);
+        }
+        
+        50% {
+          transform: scale(0.8);
+        }
+        
+        100% {
+          transform: scale(1.1);
+        }
+      }
+      
       body{
         height: 100vh;
-        background-color: rgb(164, 99, 237);
-/*        background-image: url(meloncollie.png);*/
-        background-size: cover;
-        background-position: center;
-        background-attachment: fixed;
-        background-repeat: no-repeat;
         font-family: "Times New Roman", sans-serif;
+          background-image: url(stars.JPG);
+          background-size: cover;
+          background-position: center;
+          background-attachment: fixed;
+          background-repeat: no-repeat;
       }
       
       .h1 {
-        color: white;
-        font-weight: bold;
       	font-size: 8vw;
         text-align: center;
-        background-color: black;
+        text-decoration: green dotted underline;
+        animation: rotate 3s infinite;
         
       }
       
       h2 {
-        color: white;
         font-size: 3vw;
-      }
-      
-      p {
-        color:white;
+        text-decoration: underline;
       }
       
       .center {
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 50%;
+        width: 40%;
+      }
+      
+      .border {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 40%;
+        border: 10px double black;
+        transition: transform 0.5s;
+      }
+      
+      .border:hover {
+        transform: scale(1.1) ;
       }
       
     </style>
 	</head>
 	<body>
     <div>
-      <h1 class="h1">Welcome To My Home Page!</h1>
+      <h1 class="h1">Welcome To My Home Page! ٩(◕‿◕)۶</h1>
       <img src="stars01.gif" alt="stars gif" class="center" style="vertical-align:top">
-      <h2 class="h2">My name is Michelle Liu and I love music. Below, I will list
-      some of my favorite metal albums and why I think they are amazing!! </h2>
+      <h2 class="h2">(*•‿•*) About me: My name is Michelle Liu and I am a third-year student
+        at UChicago  who loves music. I played classical piano and flute for 11 years, 
+        but I also grew up with a love for rock music. I started getting into metal music a few years
+        ago so below, I will list some of my favorite metal albums and why I think they are amazing!!⋆｡°✩
+        ⋆｡°✩⋆｡°✩
+      </h2>
     </div>
     <img src="guitar.gif" alt="guitar gif" class="center">
-    <img src="gojira.jpg" alt="From Mars to Sirius album cover" class="center">
-    <h2>Gojira, From Mars to Sirius (2005)</h2>
-    <p>Genre: Progressive Metal, Favorite Song: Flying Whales</p>
+    <img src="gojira.jpg" alt="From Mars to Sirius album cover" class="border">
+    <h2>♫ Gojira, From Mars to Sirius (2005)</h2>
+    <p>✮⋆˙Genre: Progressive Metal,  ✮⋆˙Favorite Song: Flying Whales</p>
     <p>"From Mars to Sirius" paints a beautiful storyline of the rebirth of a dead planet and
     tackles environmental issues and their impact on marine life. Not just focused on the environment,
-    the album deals with large themes of life, death, and rebirth, and the storytelling method reminds
-    me greatly of Pink Floyd's "Animals"
-    The tumultous soundscape and broader call to action against climate change is what makes this album so amazing to me.</p>
+    the album deals with larger themes of life, death, and rebirth, and the storytelling method reminds
+    me greatly of Pink Floyd's "Animals".
+    The tumultous soundscape and call to action against climate change is what makes this album so amazing to me.</p>
     
-    <img src="slipknot.png" alt="Iowa album cover" class="center">
-    <h2>Slipknot, Iowa (2001)</h2>
-    <p>Genre: Nu Metal, Favorite Song: Disasterpiece</p>
+    <img src="slipknot.png" alt="Iowa album cover" class="border">
+    <h2>♫ Slipknot, Iowa (2001)</h2>
+    <p>✮⋆˙Genre: Nu Metal,  ✮⋆˙Favorite Song: Disasterpiece</p>
     <p>I was never into Slipknot until I heard "Iowa". Songs like "Disasterpiece" and "People=Shit"
     embody anger and pain in such an incredible way, and you can truly feel the hardships the band
     was going through at that time. The title track is an indescribable soundscape, and reminds me 
-    of the legendary "Revolution 9" by The Beatles.</p>
+    of "Revolution 9" by The Beatles. The instrumental is extremely technical and even so,
+    the entire album is emotional and raw. </p>
     
-    <img src="soad.png" alt="Toxicity album cover" class="center">
-    <h2>System Of A Down, Toxicity (2001)</h2>
-    <p>Genre: Nu Metal, Favorite Song: Needles</p>
-    <p>"Toxicity" by System of a Down is a masterpiece. From the political outcry of "Prison Song",
-    to the floaty philosophy of "Aerials", the album is truly a rollercoaster. "Chop Suey!" is a song
+    <img src="soad.png" alt="Toxicity album cover" class="border">
+    <h2>♫ System Of A Down, Toxicity (2001)</h2>
+    <p>✮⋆˙Genre: Nu Metal,  ✮⋆˙Favorite Song: Needles</p>
+    <p>"Toxicity" by System Of A Down is incredible! From the political outcry of "Prison Song",
+    to the floaty sound of "Aerials", the album is truly a rollercoaster. "Chop Suey!" is a song
     many people like myself grew up hearing in the 2000's. I have probably heard the song
     hundreds of times and Serj and Daron's harmonizations in the last part of the song
-    still gives me chills. </p>
+    still give me the chills. Getting more into System Of A Down, I always find the political and social
+    commentary and their music fascinating, and an outlook into the early 2000s.</p>
     
-    <img src="deftones.jpg" alt="White Pony album cover" class="center">
-    <h2>Deftones, White Pony (2000)</h2>
-    <p>Genre: Alternative Metal, Favorite Song: Pink Maggit</p>
+    <img src="deftones.jpg" alt="White Pony album cover" class="border">
+    <h2>♫ Deftones, White Pony (2000)</h2>
+    <p>✮⋆˙Genre: Alternative Metal,  ✮⋆˙Favorite Song: Pink Maggit</p>
     <p>"White Pony" is meticulous and fascinating. Chino Moreno's versatile and unique voice
     really shines in this album, from "Change In the House of Flies" to the harsh vocals of "Elite".
-    The band's heavy shoegaze influence is prevalent and the band breaks through their nu metal 
-    categorization with this revolutionary album. I love how the album goes full circle, 
+    The band's heavy shoegaze influence is prevalent and the band breaks through their nu-metal 
+    categorization with this revolutionary album. I personally love how the album goes full circle, 
     beginning with "Mini Maggit" and ending on "Pink Maggit".</p>
     
     <div>
@@ -95,39 +123,53 @@
     </div>
     
     
-    <img src="tool.png" alt="AEnima album cover" class="center">
-    <h2>TOOL, AEnima (1996)</h2>
-    <p>Genre: Progressive Metal, Favorite Song: Jimmy</p>
-    <p>Aenima by TOOL is a bold and innovative album with a mystical sound. The sound is 
-    simultaneously heavy yet soft, intense yet beautiful, and deep yet humorous. (Not to mention
-    the album cover is fascinating)!
+    <img src="tool.png" alt="AEnima album cover" class="border">
+    <h2>♫ TOOL, AEnima (1996)</h2>
+    <p>✮⋆˙Genre: Progressive Metal,  ✮⋆˙Favorite Song: Jimmy</p>
+    <p>AEnima by TOOL is a bold and innovative album with a mystical sound. The sound is 
+    simultaneously heavy yet soft, intense yet beautiful, and deep yet humorous. AEnima is one of those
+    albums where I can remember exactly where and when I was when I first listened to it. Not to mention
+    the album cover is amazing! (definitely need it in my CD collection (-‿◦☀)~)
     </p>
     
-    <img src="judaspriest.png" alt="Painkiller album cover" class="center">
-    <h2>Judas Priest, Painkiller (1990)</h2>
-    <p>Genre: Speed Metal, Favorite Song: All Guns Blazing</p>
-    <p>"Painkiller" has crazy vocals, like AC/DC but amped up 20x. The pure speed, instrumental
-    intensity, and high-pitched vocals make it a wild ride. This is one of my favorite 
-    albums for if I need an energy boost. </p>
+    <img src="judaspriest.png" alt="Painkiller album cover" class="border">
+    <h2>♫ Judas Priest, Painkiller (1990)</h2>
+    <p>✮⋆˙Genre: Speed Metal,  ✮⋆˙Favorite Song: All Guns Blazing</p>
+    <p>"Painkiller" has crazy, wailing vocals, like AC/DC but amped up 20x. The pure speed, instrumental
+    intensity, creative riffs, and high-pitched vocals make it a wild ride. This is one of my favorite 
+    albums for if I need an energy boost. I always enjoy watching Judas Priest perform these songs,
+    where they really seem to feed off each others' and the crowds energy, making for really exciting live
+    performances. </p>
     
-    <img src="pantera.png" alt="Cowboys From Hell album cover" class="center">
-    <h2>Pantera, Cowboys From Hell (1990)</h2>
-    <p>Genre: Groove Metal, Favorite Song: Domination</p>
+    <img src="pantera.png" alt="Cowboys From Hell album cover" class="border">
+    <h2>♫ Pantera, Cowboys From Hell (1990)</h2>
+    <p>✮⋆˙Genre: Groove Metal,  ✮⋆˙Favorite Song: Domination</p>
     <p>"Domination" was one of the first songs I heard when I was getting into metal
-    and the guitar part blew my mind. Listening to this album and more Pantera songs,
-    their creativity and passionate guitar solos will always inspire me. The 
-    interplay between guitar and voice in "Cemetary Gates" and the heavy breakdown of "Pantera"
-    are some of the standouts for me. </p>
+    and the guitar solo blew my mind. Then, I watched Pantera's Moscow 91 performance of the song and was even 
+    more amazed. Listening to this album and more Pantera songs,
+    their creativity and passionate, emotional guitar solos will always inspire me (such as Floods and 10's). The 
+    interplay between guitar and voice in "Cemetary Gates" and the heavy breakdown of "Domination"
+    are a couple of the standouts for me. </p>
     
-    <img src="metallica.png" alt="Ride The Lightning album cover" class="center">
-    <h2>Metallica, Ride The Lightning (1984)</h2>
-    <p>Genre: Thrash Metal, Favorite Song: Creeping Death</p>
-    <p>Of course I had to pay tribute to the greats of the greats! Metallica's guitar parts
-    have always been technical beasts and I have always respected them for that. With "Ride The Lightning
-    ", I was blown away with how tastefully they transition from songs and within songs. </p>
+    <img src="metallica.png" alt="Ride The Lightning album cover" class="border">
+    <h2>♫ Metallica, Ride The Lightning (1984)</h2>
+    <p>✮⋆˙Genre: Thrash Metal,  ✮⋆˙Favorite Song: Creeping Death</p>
+    <p>And of course I had to include Metallica! Metallica expanded in such a beautiful way
+      from their previous album "Kill 'Em All" to "Ride The Lightning", utilizing acoustic sounds,
+      extended instrumentals, and more complex harmonies. I really love the transitions in each of the songs, 
+      including the intro of "Fade to Black" and the heavy half time sound of 
+      "Creeping Death". This coupled with the sheer technical ability
+      of the band's members make the album unforgettable. 
+    </p>
     
+    <div>
+      <p><i>Some more top picks: Black Sabbath - Paranoid, Pantera - Vulgar Display of Power,
+        Metallica - Master of Puppets, Iron Maiden - Powerslave, Megadeath - Rust In Peace,
+        Obituary - Cause of Death, Death - Symbolic, Korn - Korn, Linkin Park - Hybrid Theory,
+        BABYMETAL - METAL GALAXY</i></p>
+    </div>
     <img src="guitar.gif" alt="guitar gif" class="center">
-    <p class="center">thank you for visiting my page and reading about my favorite metal albums!!</p>
+    <p>♪ thank you for visiting my page and reading about my favorite metal albums!! ♪ （〜^∇^ )〜♪</p>
     <img src="flowers.gif" alt="flowers gif" class="center">
 	</body>
 </html>
